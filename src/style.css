@@ -1,4 +1,18 @@
 body {
-    background-color: rgb(199, 159, 196);
+    background: linear-gradient(to right, rgb(238, 156, 167), rgb(255, 221, 225));
     text-align: center;
+}
+
+.container {
+    margin: 120px auto;
+    max-width: 900px;
+    width: 86%;
+    background-color: white;
+    border-radius: 10px;
+}
+
+h1 {
+    font-weight: 800;
+    font-size: 36px;
+    line-height: 1.5;
 }
