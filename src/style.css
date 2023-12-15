@@ -72,6 +72,9 @@ form {
   border-left: 3px solid #954797;
   box-shadow: 0px 20px 60px rgb(197, 105, 193);
   margin: 20px 0;
+}
+
+.hidden {
   display: none;
 }
 
