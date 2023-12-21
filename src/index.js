@@ -24,7 +24,7 @@ function generateRecipe(event) {
 
   let recipeElement = document.querySelector("#recipe");
   recipeElement.classList.remove("hidden");
-  recipeElement.innerHTML = `Generating your recipe with ${instructionsInput}`;
+  recipeElement.innerHTML = `<div class="generating">⏳ Generating your recipe with ${instructionsInput}</div>`;
 
   console.log("Generating dessert recipe");
   console.log(`Prompt: ${prompt} `);
