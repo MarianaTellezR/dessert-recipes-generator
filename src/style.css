@@ -1,3 +1,8 @@
+/*
+font-family: 'DM Serif Text', serif;
+font-family: 'Gabarito', sans-serif;
+font-family: 'Poppins', sans-serif;
+*/
 body {
   background: linear-gradient(
     103.3deg,
@@ -91,11 +96,13 @@ input::placeholder {
 .recipe h1 {
   color: #ff7979;
   text-align: start;
+  font-family: "DM Serif Text", serif;
 }
 
 .recipe h2 {
   text-align: start;
   color: #ff7979;
+  font-family: "Gabarito", sans-serif;
 }
 
 .recipe hr {
@@ -107,6 +114,9 @@ input::placeholder {
 .recipe p {
   text-align: justify;
   margin: 1.6em 0em;
+  font-family: "DM Serif Text", serif;
+  font-style: italic;
+  font-weight: 100;
 }
 
 .recipe ul {
@@ -124,6 +134,7 @@ input::placeholder {
 
 .recipe li {
   text-decoration: none;
+  font-family: "Poppins", sans-serif;
 }
 
 .hidden {
