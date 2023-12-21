@@ -1,5 +1,9 @@
 body {
-  background: linear-gradient(103.3deg, rgb(253, 109, 104) 7.7%, rgb(248, 150, 105) 90.8%);
+  background: linear-gradient(
+    103.3deg,
+    rgb(253, 109, 104) 7.7%,
+    rgb(248, 150, 105) 90.8%
+  );
   text-align: center;
 }
 
@@ -30,7 +34,7 @@ header h1 {
 .form-container {
   padding: 30px;
   background-color: rgb(252, 250, 253);
-  border-radius: 10px;
+  border-radius: 5px;
 }
 
 form {
@@ -46,20 +50,21 @@ form {
 
 .instructions {
   padding: 16px;
-  border: 1px solid gray;
+  border: 1px solid #e05d53;
   width: 80%;
   font-size: 16px;
-  border-radius: 15px;
+  border-radius: 18px;
   line-height: 20px;
   color: rgb(238, 156, 167);
 }
 
 .submit-button {
-  margin-left: 10px;
-  background-color: rgb(214, 76, 157);
+  margin: 0px 10px;
+  width: 20%;
+  background-color: #ff6e65;
   color: white;
   border: none;
-  border-radius: 50px;
+  border-radius: 18px;
   padding: 14px 24px;
 }
 
@@ -72,6 +77,7 @@ form {
   border-left: 3px solid #954797;
   box-shadow: 0px 20px 60px rgb(197, 105, 193);
   margin: 20px 0;
+  border-radius: 5px;
 }
 
 .hidden {
