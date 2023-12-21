@@ -42,8 +42,8 @@ form {
 }
 
 .hint {
-  line-height: 1.5;
-  margin-top: 10px;
+  line-height: 1.6;
+  margin-top: 17px;
   font-size: 16px;
   opacity: 0.7;
 }
@@ -80,7 +80,7 @@ input::placeholder {
 .recipe {
   font-size: 14px;
   background-color: white;
-  padding: 20px;
+  padding: 20px 30px;
   line-height: 24px;
   font-weight: 400;
   box-shadow: 0px 20px 60px rgba(204, 90, 112, 0.459);
