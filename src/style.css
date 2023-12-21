@@ -88,13 +88,24 @@ input::placeholder {
   border-radius: 5px;
 }
 
+.recipe h1 {
+  color: #ff7979;
+  text-align: start;
+}
+
 .recipe h2 {
   text-align: start;
+  color: #ff7979;
+}
+
+.recipe hr {
+  border: 1.5px solid #e05d53;
+  width: 20%;
+  margin: 0;
 }
 
 .recipe p {
   text-align: justify;
-
 }
 
 .recipe ul {
