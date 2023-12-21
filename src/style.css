@@ -80,12 +80,38 @@ input::placeholder {
 .recipe {
   font-size: 14px;
   background-color: white;
-  padding: 20px 30px;
+  padding: 20px 38px;
   line-height: 24px;
   font-weight: 400;
   box-shadow: 0px 20px 60px rgba(204, 90, 112, 0.459);
   margin: 20px 0;
   border-radius: 5px;
+}
+
+.recipe h2 {
+  text-align: start;
+}
+
+.recipe p {
+  text-align: justify;
+
+}
+
+.recipe ul {
+  list-style: none;
+  margin-block-start: 0.5em;
+  margin-block-end: 0.5em;
+  text-align: start;
+}
+
+.recipe ol {
+  margin-block-start: 0.5em;
+  margin-block-end: 0.5em;
+  text-align: start;
+}
+
+.recipe li {
+  text-decoration: none;
 }
 
 .hidden {
