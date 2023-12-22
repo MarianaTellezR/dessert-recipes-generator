@@ -21,6 +21,12 @@ body {
   border-radius: 10px;
 }
 
+.description {
+  color: rgb(78, 75, 75);
+  text-align: justify;
+  margin: 15px 10px 35px 10px;
+}
+
 h1 {
   font-size: 36px;
   line-height: 1.5;
@@ -85,6 +91,7 @@ input::placeholder {
   border-radius: 18px;
   padding: 14px 24px;
   font-family: "Poppins", sans-serif;
+  font-size: 15px;
 }
 
 .recipe {
